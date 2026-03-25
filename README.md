@@ -36,8 +36,7 @@ It helps users explore popular locations, plan trips, and learn about the countr
 *Add screenshots of your project here*
 
 ```
-![Home Page](your-image-link)
-![Destinations Page](your-image-link)
+![Home Page](image.png)
 ```
 
 ---
