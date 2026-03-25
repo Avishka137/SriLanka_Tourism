@@ -1,0 +1,12 @@
+ v1.3.2
+ 	Removed redundant javascript
+ 	Upgraded headroom.js to v0.9.3
+
+ v1.3.0
+ 	Add support for Custom Logo
+ 	Fixed some css bugs
+
+ v1.2.0
+ 	Add an option to disable the search button on the header
+ 	Fix "Display Site Title & Tagline" bug
+ 	Change the default background color to "#ffffff"
