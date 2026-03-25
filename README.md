@@ -24,10 +24,10 @@ It helps users explore popular locations, plan trips, and learn about the countr
 
 ## 🛠️ Technologies Used
 
-* Frontend: HTML, CSS, JavaScript
-* Backend: (Add yours: PHP / Node.js / etc.)
-* Database: (MySQL / MongoDB / etc.)
-* Tools: Git, GitHub, VS Code
+- Theme/Builder: (e.g., Elementor / Custom Theme)  
+- Plugins: (e.g., Contact Form 7, WooCommerce, etc.)  
+- Database: MySQL  
+- Tools: Wordpress, GitHub 
 
 ---
 
