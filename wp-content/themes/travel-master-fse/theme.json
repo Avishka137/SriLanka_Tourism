@@ -1,0 +1,393 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"duotone": [
+				{
+					"colors": [
+						"#00a0d2",
+						"#0073aa"
+					],
+					"name": "Secondary and primary",
+					"slug": "secondary-primary"
+				},
+				{
+					"colors": [
+						"#0073aa",
+						"#2b2b2b"
+					],
+					"name": "Primary and Contrast",
+					"slug": "primary-contrast"
+				}
+			],
+			"gradients": [
+				{
+					"gradient": "linear-gradient(#0073aa 49.9%,#fff 50%)",
+					"name": "Primary color to white",
+					"slug": "primary-white"
+				},
+				{
+					"gradient": "linear-gradient(#fff 49.9%,#0073aa 50%)",
+					"name": "Horizontal white to Primary color",
+					"slug": "white-primary"
+				}
+			],
+			"palette": [
+				{
+					"color": "#ffffff",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#2b2b2b",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#091057",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#024caa",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "transparent",
+					"name": "Transparent",
+					"slug": "transparent"
+				}
+			]
+		},
+		"layout": {
+			"contentSize": "1200px",
+			"wideSize": "1200px"
+		},
+		"spacing": {
+			"units": [
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw",
+				"%"
+			]
+		},
+		"typography": {
+			"defaultFontSizes": false,
+			"dropCap": false,
+			"fluid": true,
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"src": [
+								"file:./assets/fonts/Raleway/Raleway-VariableFont_wght.woff2"
+							],
+							"fontFamily": "Raleway",
+							"fontStyle": "normal",
+							"fontWeight": "400 700 900"
+						}
+					],
+					"fontFamily": "Raleway, sans-serif",
+					"name": "Raleway",
+					"slug": "raleway"
+				},
+				{
+					"fontFace": [
+						{
+							"src": [
+								"file:./assets/fonts/Mulish/Mulish.woff2"
+							],
+							"fontFamily": "Mulish",
+							"fontStyle": "normal",
+							"fontWeight": "400 700 900"
+						}
+					],
+					"fontFamily": "Mulish, sans-serif",
+					"name": "Mulish",
+					"slug": "mulish"
+				}
+			],
+			"fontSizes": [
+				{
+					"fluid": false,
+					"name": "Small",
+					"size": "1.125rem",
+					"slug": "small"
+				},
+				{
+					"fluid": false,
+					"name": "Medium",
+					"size": "1.5rem",
+					"slug": "medium"
+				},
+				{
+					"fluid": {
+						"max": "2rem",
+						"min": "1.75rem"
+					},
+					"name": "Large",
+					"size": "2rem",
+					"slug": "large"
+				},
+				{
+					"fluid": {
+						"max": "2.75rem",
+						"min": "2.5rem"
+					},
+					"name": "XL",
+					"size": "2.75rem",
+					"slug": "x-large"
+				},
+				{
+					"fluid": {
+						"max": "3.75rem",
+						"min": "3rem"
+					},
+					"name": "XXL",
+					"size": "3.75rem",
+					"slug": "xx-large"
+				}
+			]
+		},
+		"useRootPaddingAwareAlignments": true
+	},
+	"styles": {
+		"blocks": {
+			"core/code": {
+				"color": {
+					"text": "var(--wp--preset--color--contrast)"
+				}
+			},
+			"core/comment-author-name": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)"
+				}
+			},
+			"core/comment-date": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)"
+				}
+			},
+			"core/comment-edit-link": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)"
+				}
+			},
+			"core/comment-reply-link": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)"
+				}
+			},
+			"core/heading": {
+				"typography": {
+					"lineHeight": "1.3"
+				}
+			},
+			"core/navigation": {
+				"css": "& .wp-block-site-title{ margin:0; font-weight:400;}",
+				"elements": {
+					"link": {
+						":active": {
+							"color": {
+								"text": "var(--wp--preset--color--contrast)"
+							}
+						},
+						":focus": {
+							"color": {
+								"text": "var(--wp--preset--color--contrast)"
+							}
+						},
+						":hover": {
+							"color": {
+								"text": "var(--wp--preset--color--contrast)"
+							},
+							"typography": {
+								"textDecoration": "none"
+							}
+						},
+						"color": {
+							"text": "var(--wp--preset--color--contrast)"
+						},
+						"typography": {
+							"textDecoration": "underline"
+						}
+					}
+				}
+			},
+			"core/post-author-name": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)"
+				}
+			},
+			"core/post-comments-form": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)"
+				}
+			},
+			"core/post-content": {
+				"spacing": {
+					"margin": {
+						"bottom": "var(--wp--preset--spacing--60)",
+						"top": "var(--wp--preset--spacing--60)"
+					}
+				}
+			},
+			"core/post-date": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)"
+				}
+			},
+			"core/post-excerpt": {
+				"elements": {
+					"link": {
+						"typography": {
+							"fontSize": "var(--wp--preset--font-size--small)"
+						}
+					}
+				}
+			},
+			"core/post-featured-image": {
+				"spacing": {
+					"margin": {
+						"bottom": "var(--wp--preset--spacing--40)"
+					}
+				}
+			},
+			"core/post-template": {
+				"spacing": {
+					"blockGap": "var(--wp--preset--spacing--60)",
+					"padding": {
+						"bottom": "var(--wp--preset--spacing--50)",
+						"top": "var(--wp--preset--spacing--50)"
+					}
+				}
+			},
+			"core/post-terms": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)"
+				}
+			},
+			"core/post-title": {
+				"typography": {
+					"lineHeight": "1.3"
+				}
+			},
+			"core/query-pagination": {
+				"spacing": {
+					"padding": {
+						"top": "var(--wp--preset--spacing--50)"
+					}
+				}
+			},
+			"core/search": {
+				"css": ".wp-block-search__button-inside .wp-block-search__inside-wrapper{border: none;}",
+				"typography": {
+					"lineHeight": "1"
+				}
+			}
+		},
+		"color": {
+			"background": "var(--wp--preset--color--base)",
+			"text": "var(--wp--preset--color--contrast)"
+		},
+		"css": ".wp-travel-booknow-btns:hover, #wptravel-blocks-book-button button:hover,\n.new-bottom-booking-container .wp-travel-booking__panel-bottom-new .right-info button.wp-travel-book {\n    border-radius: 25px !important;\n}\n.booknow-btn-modal .wptrave-singlepage-initial-nextbtn button,\n.booknow-btn-modal .wptravel-onepage-navigation-btn button{\n    background: #00afe9;\n    color: #fff;\n    border: none;\n    border-radius: 25px !important;\n}\n    .wptravel-onepage-navigation-btn #wp-travel-book-now, \n    .wptravel-book-your-trips.wp-travel-booknow-btns {\n        padding: 10px 15px !important;\n        border-radius: 25px;\n    }\n    .wp-travel-block-slider-wrapper .swiper-button{\n    display: none;\n    }\n    .wp-travel-block-slider-wrapper:hover .swiper-button-prev, .wp-travel-block-slider-wrapper:hover .swiper-button-next{\n    display: grid !important;\n    }\n    .wp-travel-block-slider-wrapper .swiper-button{\n    border: none !important;\n    background: transparent;\n    }\n    .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{\n        font-size: 15px !important;\n        border-radius: 50%;\n        outline: 0;\n        background: #fff;\n        color: #000;\n        padding: 20px 25px;\n        margin-right: 50px;\n        font-weight: bold;\n    }\n    .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{\n    font-size: 15px !important;\n        border-radius: 50%;\n        outline: 0;\n        background: #fff;\n        color: #000;\n        padding: 20px 25px;\n        margin-left: 50px;\n        font-weight: bold;\n    }\n    .tmf-07-group .wp-block-latest-posts__list li:first-child{\n        margin-bottom: 20px;\n    }\n    .tms-title-hide-hovering{\n        position: absolute;\n        left: 50%;\n        bottom: 50%;\n        transform: translate(-50%, 50%);\n    }\n    input[type=\"submit\"] {\n        background-color: #00afe9 !important;\n        color: #fff !important;\n        border-color: #00afe9 !important;\n    }\n    input[type=\"submit\"]:hover {\n        opacity: 0.8;\n    }\n    .error404 .wp-block-search__inside-wrapper .wp-block-search__input {\n        background: #fff;\n    }\n    .error404 .wp-block-search__inside-wrapper .wp-block-search__button:hover {\n        border-color: #00afe9;\n    }\n    .error404 .wp-block-search__inside-wrapper button.wp-block-search__button:hover {\n        /* border-color: none; */\n        border: none;\n    }\n    .archive .wp-block-button__link:hover,\n    .travel-master-fse-link-button a:hover {\n        background-color: #00afe9 !important;\n        color: #fff !important;\n    }\n    #respond input[type=\"submit\"] {\n        padding: 14px 35px;\n        font-size: 16px;\n        line-height: 28px;\n        font-weight: bold;\n        display: inline-block;\n        letter-spacing: 0.01em;\n        position: relative;\n        text-align: center;\n        background-color: #e5f8fc;\n        border: 2px solid #e5f8fc;\n        color: #00afe9;\n        border-radius: 50px;\n        height: auto;\n        min-height: auto;\n        font-family: 'Raleway', sans-serif;\n        -webkit-transition: all 0.3s ease-in-out;\n        -moz-transition: all 0.3s ease-in-out;\n        -ms-transition: all 0.3s ease-in-out;\n        -o-transition: all 0.3s ease-in-out;\n        transition: all 0.3s ease-in-out;\n    }\n    ul a:hover {\n        color: #00afe9;\n    }\n    .wp-block-post-navigation-link a:hover {\n        color: #00afe9;\n    }\n    .tmf-07-group img {\n        border-radius: 10px;\n    }\n    .tmf-03-cover .tmf-title {\n        display: none;\n    }\n    .tmf-03-cover:hover .tmf-title {\n        display: block;\n    }\n    .wp-travel-checkout-section input[type=\"submit\"] {\n        padding: 10px 20px;\n        font-size: 16px;\n        font-weight: bold;\n        display: inline-block;\n        letter-spacing: 0.01em;\n        position: relative;\n        text-align: center;\n        background-color: #00afe9;\n        border: 2px solid #e5f8fc;\n        color: #fff;\n        border-radius: 50px;\n        font-family: 'Raleway', sans-serif;\n        -webkit-transition: all 0.3s ease-in-out;\n        -moz-transition: all 0.3s ease-in-out;\n        -ms-transition: all 0.3s ease-in-out;\n        -o-transition: all 0.3s ease-in-out;\n        transition: all 0.3s ease-in-out;\n    }\n    /* Start: navigation */\n    .wp-block-query-pagination-next .wp-block-query-pagination-next-arrow {\n        font-size: 16px;\n        font-weight: bold;\n        content: \">\";\n    }\n    .wp-block-query-pagination-previous .wp-block-query-pagination-next-arrow {\n        font-size: 16px;\n        font-weight: bold;\n        content: \"<\";\n    }\n    .wp-block-query-pagination-next-arrow {\n        visibility: hidden;\n        position: relative;\n    }\n    .wp-block-query-pagination-next-arrow::before {\n        content: \">\";\n        visibility: visible;\n        position: absolute;\n        left: 0;\n        font-size: 25px;\n        font-weight: 600;\n        color: #000;\n        line-height: 1;\n    }\n    .wp-block-query-pagination-previous-arrow {\n        visibility: hidden;\n        position: relative;\n    }\n    .wp-block-query-pagination-previous-arrow::before {\n        content: \"<\";\n        visibility: visible;\n        position: absolute;\n        right: 0;\n        font-size: 25px;\n        font-weight: bold;\n        color: #000;\n        line-height: 1;\n    }\n    .wp-block-query-pagination {\n        display: flex;\n        justify-content: flex-start;\n        align-items: center;\n        gap: 10px;\n    }\n    .wp-block-query-pagination-numbers {\n        display: flex;\n        gap: 8px;\n    }\n    .page-numbers {\n        height: 40px;\n        width: 40px;\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        background-color: #ffffff;\n        color: #333;\n        border: 1px solid #ffffff;\n        border-radius: 4px;\n        text-decoration: none;\n        transition: background-color 0.3s ease, color 0.3s ease;\n    }\n    .page-numbers:hover {\n        background-color: #00afe9;\n        color: #fff !important;\n    }\n    .page-numbers.current {\n        background-color: #00afe9;\n        color: #fff;\n        border: 1px solid #00afe9;\n    }\n    .wp-block-query-pagination-next,\n    .wp-block-query-pagination-previous {\n        height: 40px;\n        width: 40px;\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        background-color: #ffffff;\n        color: #000000;\n        border: 1px solid #ffffff;\n        border-radius: 4px;\n        text-decoration: none;\n    }\n    .wp-block-query-pagination-next:hover,\n    .wp-block-query-pagination-previous:hover {\n        background-color: #00afe9;\n        color: #fff !important;\n    }\n    .wp-block-query-pagination-next-arrow {\n        margin-left: 0px !important;\n    }\n    .wp-block-query-pagination-previous-arrow {\n        margin-right: 0px !important;\n    }\n    .wp-block-query-pagination-next:hover .wp-block-query-pagination-next-arrow::before {\n        color: #fff;\n    }\n    .wp-block-query-pagination-previous:hover .wp-block-query-pagination-previous-arrow::before {\n        color: #fff;\n    }\n    /* End : navigation */\n    .tmf-about-us-seemore:hover,\n    .gp7-mf-about-us-seemore a:hover {\n        background-color: #a5bac2 !important;\n        color: #fff !important;\n    }\n    .tmf-about-us-seemore,\n    .gp7-mf-about-us-seemore a {\n        padding: 14px 35px;\n        background-color: #e5f8fc !important;\n        color: #00afe9;\n        border-radius: 50px;\n        text-align: left;\n    }\n    #wptravel-scroll-to-top {\n        border: none !important;\n        right: 40px !important;\n        padding: 10px 20px !important;\n    }\n    #wptravel-scroll-to-top:hover {\n        background-color: #000;\n        color: #fff;\n    }\n    .tmf-7-group .wptravel-blocks-single-trip-book-button:hover,\n    #wptravel-scroll-to-top {\n        background-color: #00afe9 !important;\n        color: #fff;\n    }\n    .tmf-7-group #wptravel-block-trip-price {\n        margin: 0\n    }\n    .tmf-7-group #wptravel-block-trip-price .trip-price {\n        font-size: 32px;\n        font-weight: bold;\n        font-family: 'Raleway', sans-serif;\n    }\n    .tmf-03-cover a:hover {\n        color: #fff !important;\n        opacity: 0.8;\n    }\n    .tmf-3-group .wp-block-read-more:hover {\n        color: #00afe9 !important;\n    }\n    .wptravel-block-trip-filters .wp-trave-price-range .ui-slider-horizontal .ui-slider-range {\n        background: #00afe9;\n    }\n    .wptravel-block-trip-filters #wp-travel-filter-search-submit {\n        margin-top: 20px;\n    }\n    .wptravel-block-trip-enquiry:hover #wp-travel-send-enquiries-btn::before,\n    .wptravel-block-trip-enquiry:hover #wp-travel-send-enquiries {\n        color: #00afe9;\n    }\n    .home .wp-block-post-author__name {\n        font-size: 16px;\n    }\n    .tmf-3-group li.wp-block-post {\n        position: relative;\n    }\n    .tmf-about-cover::after {\n        content: \"\";\n        position: absolute;\n        top: 0;\n        left: 0;\n        width: 100%;\n        height: 100%;\n        background: rgba(0, 0, 0, 0);\n        transition: background 0.3s ease-in-out;\n        z-index: 0;\n    }\n    .tmf-about-cover:hover::after {\n        background: rgba(0, 0, 0, 0.4);\n    }\n    .tmf-about-cover h2 a:hover {\n        color: #fff;\n        opacity: 0.7;\n    }\n    .tmf-about-cover h2 {\n        opacity: 0;\n        transition: opacity 0.3s ease-in-out;\n    }\n    .tmf-about-cover:hover h2 {\n        opacity: 1;\n    }\n    .tmf-about-us-leftimage img {\n        box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.3);\n    }\n    .tmf-04-cover::after {\n        content: \"\";\n        position: absolute;\n        top: 0;\n        left: 0;\n        width: 100%;\n        height: 100%;\n        background: rgba(0, 0, 0, 0);\n        transition: background 0.3s ease-in-out;\n        z-index: 0;\n    }\n    .tmf-04-cover:hover::after {\n        background: rgba(0, 0, 0, 0.4);\n    }\n    .tmf-make-title {\n        z-index: 11;\n        font-size: 20px;\n        position: relative;\n        opacity: 0;\n        transition: opacity 0.3s ease-in-out;\n    }\n    .tmf-04-cover {\n        position: relative;\n        transition: background 0.3s ease-in-out;\n        box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.3);\n    }\n    .tmf-04-cover a:hover {\n        color: transparent !important;\n    }\n    .tmf-04-cover:hover {\n        background: rgba(0, 0, 0, 0.4);\n    }\n    .tmf-04-cover:hover .tmf-make-title {\n        opacity: 1;\n    }\n    .tmf-make-title::before {\n        content: \"\\f067\";\n        font-family: \"Font Awesome 5 Free\";\n        font-weight: 900;\n        font-size: 25px;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        text-align: center;\n        width: 35px;\n        height: 35px;\n        line-height: 35px;\n        background: #fff;\n        border-radius: 50%;\n        color: rgba(0, 0, 0, 0.5);\n        position: absolute;\n        left: 50%;\n        top: 50%;\n        transform: translate(-50%, -50%);\n        z-index: 1;\n        pointer-events: none;\n    }\n    .tmf-3-group .tmf-rating {\n        position: absolute;\n        top: 20px;\n        left: 14px;\n        z-index: 1;\n    }\n    .archive p.wp-block-post-excerpt__excerpt {\n        font-size: 16px;\n    }\n    #wptravel-block-trip-duration {\n        color: #979797;\n    }\n    .archive #wptravel-block-trip-duration {\n        font-weight: bold;\n    }\n    .archive #wptravel-block-trip-price .trip-price {\n        font-size: 32px !important;\n        line-height: 1.3;\n    }\n    .archive span.price-from {\n        color: #000;\n        font-size: 20px;\n    }\n    button.trip-page-pax-selector {\n        background-color: #00afe9;\n        color: #fff;\n        border: none;\n    }\n    .wptravel-blocks-single-trip-book-button {\n        pointer-events: none;\n    }\n    .page-template-wp-custom-template-contact .wpcf7-form {\n        margin: 0 auto;\n        padding: 25px;\n        background: #ffffff;\n        border-radius: 10px;\n        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);\n    }\n    .page-template-wp-custom-template-contact .wpcf7-form input[type=\"text\"],\n    .page-template-wp-custom-template-contact .wpcf7-form input[type=\"email\"],\n    .page-template-wp-custom-template-contact .wpcf7-form textarea {\n        width: 100%;\n        padding: 12px;\n        margin-bottom: 15px;\n        border: 1px solid #ddd;\n        border-radius: 5px;\n        font-size: 16px;\n        transition: border-color 0.3s ease-in-out;\n    }\n    .page-template-wp-custom-template-contact .wpcf7-form input[type=\"text\"]:focus,\n    .page-template-wp-custom-template-contact .wpcf7-form input[type=\"email\"]:focus,\n    .page-template-wp-custom-template-contact .wpcf7-form textarea:focus {\n        border-color: #00afe9;\n        outline: none;\n    }\n    .page-template-wp-custom-template-contact .wpcf7-form label {\n        font-weight: 500;\n        display: block;\n        margin-bottom: 5px;\n        font-size: 14px;\n        color: #333;\n    }\n    .page-template-wp-custom-template-contact .wpcf7-form textarea {\n        height: 120px;\n        resize: none;\n    }\n    .page-template-wp-custom-template-contact .wpcf7-form input[type=\"submit\"] {\n        padding: 14px 35px;\n        border: none;\n        border-radius: 50px;\n        background: #00afe9;\n        color: #fff;\n        font-size: 16px;\n        cursor: pointer;\n        line-height: 28px;\n        display: inline-block;\n        transition: background 0.3s ease-in-out;\n    }\n    .page-template-wp-custom-template-contact .wpcf7-form input[type=\"submit\"]:hover {\n        background: #0088c7;\n    }\n    .page-template-wp-custom-template-contact .wpcf7-spinner {\n        display: none !important;\n    }\n    .page-template-wp-custom-template-contact .wpcf7-response-output {\n        margin-top: 10px;\n        padding: 10px;\n        border-radius: 5px;\n        font-size: 14px;\n        text-align: center;\n    }\n    .page-template-wp-custom-template-contact .wpcf7-form.sent .wpcf7-response-output {\n        color: #155724;\n        background: #d4edda;\n        border: 1px solid #c3e6cb;\n    }\n    .page-template-wp-custom-template-contact .wpcf7-form.invalid .wpcf7-response-output {\n        color: #721c24;\n        background: #f8d7da;\n        border: 1px solid #f5c6cb;\n    }\n    .blog #theme-palace-fse-pro-block a {\n        color: #fff;\n    }\n    .wp-block-search__inside-wrapper .wp-block-search__button {\n        border-bottom-right-radius: 10px;\n        border-top-right-radius: 10px;\n        margin: 0;\n        box-shadow: none;\n    }\n    .wp-block-search__inside-wrapper .wp-block-search__input {\n        border-top-left-radius: 10px;\n        border-top-right-radius: 0px;\n        border-bottom-left-radius: 10px;\n        border-bottom-right-radius: 0px;\n        background: #f5f5f3;\n    }\n    .single-itineraries #wp-travel-send-enquiries-btn {\n        background-color: transparent;\n        border: none;\n        text-align: left;\n        padding: 0px !important;\n    }\n    .single-itineraries a:hover {\n        color: #00afe9;\n    }\n    .single-itineraries .wp-travel-tab-wrapper .tab-list.resp-tabs-list li.resp-tab-active,\n    .single-itineraries .wp-travel-tab-wrapper .tab-list.resp-tabs-list li:hover,\n    .single-itineraries .wp-travel-tab-wrapper .tab-list.resp-tabs-list li:focus {\n        color: #dc1b10;\n    }\n    .single-itineraries .trail-items li a {\n        color: #fff;\n        opacity: 0.8;\n    }\n    .single-itineraries #wptravel-block-trip-fact .tour-info {\n        border: 1px solid #e0e0e0;\n    }\n    .single-itineraries .tmf-single-trip-cover .wp-block-cover__inner-container {\n        background: linear-gradient(to top, rgba(0, 0, 0, 0.80) 0, rgba(0, 0, 0, 0) 100%);\n    }\n    .single-itineraries #wptravel-block-trip-fact .tour-info .trip-facts-label {\n        font-size: 16px;\n        font-weight: 700;\n        font-style: italic;\n        font-family: 'Mulish';\n    }\n    .wptravel-block-trip-fact .tour-info .tour-info-column .tour-info-item {\n        flex-direction: row;\n        gap: 5px;\n    }\n    .single-itineraries #wp-travel-send-enquireies-btn {\n        padding: 0 !important;\n        margin: 0;\n        background: transparent;\n        text-align: left;\n    \n    }\n    .single-itineraries #wp-travel-send-enquiries-btn::before {\n        content: \"\\f223\";\n        font-family: dashicons;\n        display: inline-block;\n        line-height: 1;\n        font-weight: 400;\n        font-style: normal;\n        text-decoration: inherit;\n        text-transform: none;\n        text-rendering: auto;\n        -webkit-font-smoothing: antialiased;\n        -moz-osx-font-smoothing: grayscale;\n        width: 24px;\n        height: 24px;\n        font-size: 24px;\n        vertical-align: top;\n        text-align: center;\n    \n    }\n    .single-itineraries .wptravel-blocks-single-trip-book-button,\n    button.wp-travel-book,\n    #wptravel-block-trip-button,\n    #wp-travel-filter-search-submit {\n        padding: 10px 20px;\n        border: none;\n        background-color: #00afe9;\n        color: #fff;\n        font-size: 16px;\n        display: inline-block;\n        border-radius: 50px;\n        min-width: 134px;\n        line-height: 27px;\n        text-align: center;\n        -webkit-transition: all 0.3s ease-in-out;\n        -moz-transition: all 0.3s ease-in-out;\n        -ms-transition: all 0.3s ease-in-out;\n        -o-transition: all 0.3s ease-in-out;\n        transition: all 0.3s ease-in-out;\n    }\n    .single-itineraries .wptravel-blocks-single-trip-book-button:hover,\n    button.wp-travel-book:hover,\n    #wptravel-block-trip-button:hover,\n    #wp-travel-filter-search-submit:hover {\n        opacity: 0.8;\n    }\n    .single-itineraries #wptravel-block-trip-fact .tour-info {\n        margin-block: 0px;\n    }\n    .single-itineraries .travel_locations a,\n    .single-itineraries .travel_keywords,\n    .single-itineraries .activity,\n    .single-itineraries .itinerary_types,\n    .single-itineraries .wptravel-blocks-timespan-value,\n    .single-itineraries .wptravel-block-group-size {\n        font-family: 'Muli', sans-serif;\n        font-size: 16px;\n        font-weight: 400;\n    }\n    .single-itineraries #wptravel-blocks-trip-timespan .wptravel-blocks-timespan-title {\n        color: #75939b;\n        font-size: 16px;\n        font-style: normal;\n        font-weight: 400;\n    }\n    #wptravel-block-trip-price .trip-price {\n        font-size: 20px;\n        font-family: 'Muli', sans-serif;\n        font-weight: bold;\n    }\n    .wp-block-categories-list {\n        list-style: none;\n    }\n    .wp-block-theme-palace-fse-pro-icon-picker {\n        transform: translateX(0);\n        transition: transform 0.3s ease-in-out;\n    }\n    .wens-see-more-btn:hover~.wp-block-theme-palace-fse-pro-icon-picker {\n        transform: translateX(10px);\n    }\n    .wp-block-button__link:hover {\n        background-color: #00afe9;\n        color: #fff;\n    }\n    #wptravel-blocks-book-button,\n    .wp-travel-booknow-btns {\n        padding: 14px 35px;\n        background-color: #e5f8fc !important;\n        color: #00afe9;\n    }\n    .single-itineraries #wptravel-blocks-book-button {\n        padding: 0px;\n    }\n    .single-itineraries #wptravel-blocks-book-button button {\n        padding: 10px 10px !important;\n        background-color: #e5f8fc !important;\n        color: #00afe9;\n    }\n    #wptravel-blocks-book-button button:hover,\n    .wp-travel-booknow-btns:hover {\n        background-color: #00afe9 !important;\n    }\n\n    .wptravel-blocks-single-trip-book-button:hover,\n    .wp-travel-booknow-btns:hover {\n        border-color: transparent;\n    }\n    .tmf-btn-primary a:hover {\n        background: #fff !important;\n        color: #00afe9 !important;\n    }\n    .wp-block-navigation__submenu-container {\n        background: #000 !important;\n        padding: 15px !important;\n        display: flex;\n        gap: 20px\n    }\n    .tmf-stick-header {\n        z-index: 9;\n        position: relative;\n        top: 0;\n        left: 0;\n        right: 0;\n        width: 100%;\n        background-color: transparent;\n        padding: 40px 0;\n        transition: background-color 0.3s ease, padding 0.3s ease;\n    }\n    .tmf-stick-header {\n        background-color: #242625 !important;\n    }\n    .home .tmf-stick-header{\n        background-color: transparent !important;\n        position: absolute;\n    }\n    .tmf-stick-header.scrolled {\n        background-color: #242625 !important;\n        padding: 20px 0;\n    }\n    .tmf-03-cover .trip-price {\n        font-family: 'Mulish', sans-serif;\n        font-size: 20px;\n        font-weight: 700;\n    }\n    .tmf-03-cover .trip-price,\n    footer .has-link-color.has-mulish-font-family a:hover {\n        color: #fff !important;\n    }\n    #wp-travel-search:hover,\n    .wpcf7-submit:hover {\n        border-color: transparent !important;\n        background-color: #00afe9 !important;\n        color: #fff;\n    }\n    .wp-travel-search select,\n    .wp-travel-search input {\n        background: #000 !important;\n        color: #fff;\n    }\n    .wp-travel-search input[type=\"submit\"] {\n        background: #00afe9 !important;\n        color: #fff;\n    }\n    .tmf-subscribe p br,\n    .tmf-subscribe p .wpcf7-spinner,\n    #wptravel-block-trip-search p label {\n        display: none;\n    }\n    .tmf-subscribe p {\n        display: flex;\n        gap: 20px;\n        flex-wrap: nowrap;\n        justify-content: center;\n        width: 100%;\n        max-width: 100%;\n    }\n    .tmf-subscribe input[type=\"email\"] {\n        margin-bottom: 0;\n        width: 100%;\n        max-width: 100%;\n        min-height: 60px;\n        border-radius: 50px;\n        padding: 0px 40px;\n        border: none;\n        background-color: #f6f6f6;\n        color: #666;\n        font-size: 1rem;\n        line-height: 28px;\n        word-wrap: break-word;\n    }\n    .tmf-subscribe input[type=\"submit\"] {\n        min-height: 60px;\n        border-radius: 50px;\n        padding: 0px 40px;\n        border: none;\n        background-color: #00afe9;\n        color: #ffffff;\n        font-size: 1rem;\n        line-height: 28px;\n        word-wrap: break-word;\n    }\n    .tmf-hover-shadow {\n        -webkit-transition: all 0.3s ease-in-out;\n        -moz-transition: all 0.3s ease-in-out;\n        -ms-transition: all 0.3s ease-in-out;\n        -o-transition: all 0.3s ease-in-out;\n        transition: all 0.3s ease-in-out;\n    }\n    .tmf-hover-shadow:hover {\n        box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.3);\n        border-color: transparent !important;\n    }\n    a:not(.wp-element-button),\n    .tmf-stick-header a {\n        text-decoration: none;\n    }\n    .tmf-07-group a:not(.wp-element-button) {\n        text-decoration: none;\n        color: #dc1b10 !important;\n    }\n    .tmf-rating {\n        position: absolute;\n        top: 20px;\n        left: 14px;\n    }\n    .wp-travel-search form input[type=\"text\"],\n    .wp-travel-search form input[type=\"submit\"],\n    .wp-travel-search form select {\n        min-height: 60px !important;\n        padding: 0 30px;\n        border-radius: 50px;\n        box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);\n    }\n    .master-fse-slider button[type=\"button\"] {\n        border: 1px solid #fff;\n        background: transparent;\n        width: 72px !important;\n        height: 72px !important;\n        border-radius: 50px !important;\n        visibility: hidden;\n    }\n    .master-fse-slider:hover button[type=\"button\"] {\n        visibility: visible;\n    }\n    .master-fse-slider button[type=\"button\"]:hover {\n        background: #fff;\n    }\n    .master-fse-slider button[type=\"button\"]:hover svg {\n        fill: #000;\n    }\n    .master-fse-slider button[type=\"button\"] svg {\n        fill: #fff;\n    }\n    .tmf-trip-title-price {\n        visibility: hidden;\n        opacity: 0;\n        transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;\n    }\n    .tmf-03-cover:hover .tmf-trip-title-price {\n        opacity: 1;\n        visibility: visible;\n    }\n    .tmf-03-cover:hover .tms-title-hide-hovering {\n        opacity: 0;\n        visibility: hidden;\n    }\n    .tmf-03-cover {\n        transition: transform 0.3s ease-in-out;\n    }\n    .tmf-03-cover:hover {\n        transform: scale(1.1);\n    }\n    .tmf-03-cover a:hover,\n    .tmf-04-cover a:hover,\n    .tmf-0-group a:hover,\n    .wp-block-query a:hover {\n        color: #00afe9;\n    }\n    @media screen and (max-width: 900px) {\n        .home #wptravel-block-trip-search form {\n            gap: 20px;\n        }\n        .wp-block-navigation-item .wp-block-social-links {\n            display: none;\n        }\n    }\n    @media screen and (max-width: 768px) {\n        .home .wp-container-core-group-is-layout-33,\n        .home .wp-container-core-group-is-layout-62,\n        .home .wp-container-core-group-is-layout-22 {\n            justify-content: start;\n        }\n        a.has-text-align-right {\n            padding: 0;\n        }\n        .tmf-featured-image-column {\n            padding-right: 24px !important;\n        }\n        .archive .wp-block-column {\n            border: none;\n        }\n        .tmf-flex-wrap-mobile {\n            flex-direction: column-reverse;\n        }\n    }\n    @media screen and (max-width: 600px) {\n        .wp-block-navigation__container>.wp-block-navigation-item:last-child{\n            padding: 15px 10px 10px 25px !important;\n        }\n        header .wp-block-social-links {\n            display: none;\n        }\n        .tmf-7-group,\n        .tmf-7-group .wp-block-theme-palace-fse-pro-icon-picker div {\n            text-align: center !important;\n        }\n        .tmf-subscribe p {\n            flex-wrap: wrap;\n        }\n        header #modal-1-content {\n            background: #ffffff !important;\n            padding: 0px;\n            gap: 10px;\n        }\n        header .wp-block-navigation__responsive-container-content ul {\n            gap: 10px;\n        }\n        .wp-block-navigation__responsive-container.has-modal-open.is-menu-open {\n            padding: 0px !important;\n            top: 80px !important;\n        }\n        .wp-block-navigation__submenu-container {\n            gap: 10px;\n        }\n        .wp-block-navigation__submenu-container li a {\n            padding: 0;\n            border-left: none;\n            border-bottom: 1px solid rgba(255, 255, 255, 0.10);\n        }\n        .wp-block-navigation__responsive-container-close {\n            padding: 10px;\n            color: #000;\n        }\n        .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__container {\n            color: #000 !important;\n            width: 100%;\n            gap: 0;\n        }\n        .wp-block-navigation__container>.wp-block-navigation-item:not(:last-child) {\n            border-bottom: 1px solid #ccc;\n            padding-bottom: 10px;\n            padding: 15px 10px 10px 25px !important;\n            width: 100%;\n        }\n        .wp-block-navigation__submenu-container .wp-block-navigation-item {\n            border-bottom: none !important;\n        }\n    }",
+		"elements": {
+			"button": {
+				":hover": {
+					"border": {
+						"color": "var(--wp--preset--color--secondary)"
+					}
+				},
+				"border": {
+					"color": "var(--wp--preset--color--transparent)",
+					"radius": "4px",
+					"style": "solid",
+					"width": "4px"
+				},
+				"color": {
+					"background": "var(--wp--preset--color--primary)",
+					"text": "var(--wp--preset--color--contrast)"
+				},
+				"shadow": "var(--wp--preset--shadow--natural)",
+				"spacing": {
+					"padding": {
+						"bottom": "var(--wp--preset--spacing--30)",
+						"left": "var(--wp--preset--spacing--30)",
+						"right": "var(--wp--preset--spacing--30)",
+						"top": "var(--wp--preset--spacing--30)"
+					}
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)",
+					"fontWeight": "700"
+				}
+			},
+			"caption": {
+				"color": {
+					"text": "var(--wp--preset--color--primary)"
+				}
+			},
+			"cite": {
+				"color": {
+					"text": "var(--wp--preset--color--primary)"
+				}
+			},
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--mulish)"
+				}
+			},
+			"link": {
+				":active": {
+					"color": {
+						"text": "var(--wp--preset--color--contrast)"
+					}
+				},
+				":focus": {
+					"color": {
+						"text": "var(--wp--preset--color--contrast)"
+					}
+				},
+				":hover": {
+					"color": {
+						"text": "var(--wp--preset--color--contrast)"
+					},
+					"typography": {
+						"textDecoration": "none"
+					}
+				},
+				"color": {
+					"text": "var(--wp--preset--color--contrast)"
+				}
+			}
+		},
+		"spacing": {
+			"padding": {
+				"left": "var(--wp--preset--spacing--50)",
+				"right": "var(--wp--preset--spacing--50)"
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--raleway)",
+			"fontSize": "16px",
+			"lineHeight": "1.7"
+		}
+	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header",
+			"title": "Header"
+		},
+		{
+			"area": "footer",
+			"name": "footer",
+			"title": "Footer"
+		}
+	],
+	"version": 3
+}
